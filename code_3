@@ -1,0 +1,11 @@
+// Define an array of colors for the rainbow
+const rainbowColors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+// Generate a random index to pick a color from the array
+const randomIndex = Math.floor(Math.random() * rainbowColors.length);
+
+// Get the color at the random index
+const randomRainbowColor = rainbowColors[randomIndex];
+
+// Print the random color to the console
+console.log("Random color of the rainbow: " + randomRainbowColor);
